@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.mainBg {
+  background: url("../../public/images/banner.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 140vh;
+}
+
+
+
+
+
+@media (max-width: 1266px) {
+  .conditionCLass {
+    display: none;
+  }
+}
