@@ -16,12 +16,35 @@
   min-height: 140vh;
 }
 
+.breadCrumbImage {
+  background: url("../../public//images/bread.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
 
+.breadCrumbImage::after {
+  position: absolute;
+  content: "";
+  background-color: rgba(0, 0, 0, 0.767);
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  backdrop-filter: blur(5px);
+}
 
-
+.sliderShadow {
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
 
 @media (max-width: 1266px) {
   .conditionCLass {
     display: none;
   }
+}
+
+.para {
+  font-size: clamp(1rem, 0.7949rem + 1.0256vw, 1.5rem);
 }

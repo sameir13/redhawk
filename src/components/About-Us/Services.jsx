@@ -1,7 +1,7 @@
 "use client";
 import React from "react";
 import Link from "next/link";
-import Heading from "./Heading";
+import Heading from "../Heading";
 import { useRouter } from "next/navigation";
 
 const Services = () => {
@@ -46,10 +46,9 @@ const Services = () => {
   return (
     <section className=" py-[110px] px-4  bg-[#eeeeee]">
       <Heading heading={"Our Services"} />
-
       <div className=" relative  m-auto max-w-[1000px] flex flex-col  bg-[#4B4B4B]  ">
-        <div className="  max-w-[100%] md:max-w-[80%]  py-20 px-10   md:py-32 md:px-20">
-          <p className=" mb-10 para text-white">
+        <div className=" py-20 px-10   md:py-32 md:px-20">
+          <p className=" mb-10 text-2xl text-white">
             Red Hawk enhances management through live monitoring services,
             providing real time oversight to streamline business operations
           </p>
@@ -59,7 +58,7 @@ const Services = () => {
               <div key={i}>
                 <span
                   onClick={() => router.push(`/our-services/${v.href}`)}
-                  className=" flex items-center gap-3 text-md  md:text-lg text-white w-fit cursor-pointer"
+                  className=" flex items-center gap-3 text-lg text-white w-fit cursor-pointer"
                 >
                   <i className={`bx text-4xl ${v.icon}`}></i>
                   {v.name}
@@ -76,13 +75,6 @@ const Services = () => {
               Explore More
             </Link>
           </div>
-        </div>
-
-        <div className=" conditionCLass absolute shadow-2xl right-[-12%]  top-[25%] bg-white  flex-col items-center justify-center py-14 px-10 gap-10">
-          <img src="./images/logo.png" className="w-[300px] mb-5" alt="" />
-          <p className=" text-xl text-center ">
-            Streamline Business <br /> Success with Red Hawk
-          </p>
         </div>
       </div>
     </section>

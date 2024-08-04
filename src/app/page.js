@@ -5,6 +5,8 @@ import BrandsTwo from "../components/BrandsTwo";
 import Services from "../components/Services";
 import Industries from "../components/Industries";
 import About from "../components/About";
+import Logoslider from "../components/Logoslider";
+
 
 const Page = () => {
   return (
@@ -15,6 +17,8 @@ const Page = () => {
       <Services />
       <Industries />
       <About />
+      <Logoslider />
+      
     </div>
   );
 };

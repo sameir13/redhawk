@@ -9,22 +9,23 @@ const Brands = () => {
 
       <div className=" relative  m-auto max-w-[1000px] flex flex-col  bg-[#FFDD2B]  ">
         <div className="  max-w-[100%] md:max-w-[80%]  py-20 px-10   md:py-32 md:px-20">
-          <p className=" mb-10 text-2xl">
+          <p className=" mb-10 para">
             Red Hawk enhances management through live monitoring services,
             providing real time oversight to streamline business operations
           </p>
+
           <div className=" mb-14 flex flex-col gap-4 ">
-            <span className=" flex items-center gap-3 text-lg">
+            <span className=" flex items-center gap-3  text-md md:text-lg">
               <i class="bx bx-bell text-4xl"></i>
               Instant Mobile Notifications
             </span>
 
-            <span className=" flex items-center gap-3 text-lg">
+            <span className=" flex items-center gap-3 text-md md:text-lg">
               <i class="bx bx-book-content text-4xl"></i>
               Daily/Weekly/Monthly Reports
             </span>
 
-            <span className=" flex items-center gap-3 text-lg">
+            <span className=" flex items-center gap-3 text-md md:text-lg">
               <i class="bx bxs-credit-card text-4xl"></i>
               Reimbursement
             </span>
