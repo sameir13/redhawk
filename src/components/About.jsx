@@ -3,7 +3,10 @@ import Link from "next/link";
 
 const About = () => {
   return (
-    <section className=" pt-[110px] px-5 max-w-[1100px] m-auto flex flex-col items-center justify-center gap-8">
+    <section
+      id="about"
+      className=" pt-[110px] px-5 max-w-[1100px] m-auto flex flex-col items-center justify-center gap-8"
+    >
       <div>
         <h2 className="text-3xl md:text-4xl font-semibold mb-6 text-center">
           About Us

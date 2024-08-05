@@ -5,22 +5,22 @@ const Footer = () => {
   const socialLinks = [
     {
       social: "bxl-facebook",
-      color: "bg-[#1877F2]",
+      href: "https://www.facebook.com/profile.php?id=100092725004981",
     },
 
     {
       social: "bxl-instagram",
-      color: "bg-[#FCAF45]",
+      href: "https://www.instagram.com/red_hawk.inc",
     },
 
     {
-      social: "bxl-xing",
-      color: "bg-black",
+      social: "bxl-linkedin",
+      href: "https://www.linkedin.com/company/red-hawk-usa/",
     },
 
     {
       social: "bxl-youtube",
-      color: "bg-[#FF0000]",
+      href: "https://www.youtube.com/@BoulevardHoldings",
     },
   ];
 
@@ -57,16 +57,16 @@ const Footer = () => {
         <p className=" text-sm  text-center text-gray-600">
           ©2024, Red Hawk All rights reserved.
         </p>
-        <img src="./images/logo.png" className="w-[150px]" alt="" />
+        <img src="/images/logo.png" className="w-[150px]" alt="" />
 
         <div className=" flex items-center justify-center gap-4 flex-wrap">
           {socialLinks.map((v, i) => (
-            <Link href={"/"} key={i}>
+            <Link href={v.href} key={i} target="_blank">
               <div
                 key={i}
-                className={`  ${v.color}   flex items-center justify-center h-10 w-10 rounded-full hover:-translate-y-1 transition-all duration-300`}
+                className={` bg-white shadow-lg  flex items-center justify-center h-10 w-10 rounded-full hover:-translate-y-1 transition-all duration-300`}
               >
-                <i className={`bx ${v.social} text-xl text-white`}></i>
+                <i className={`bx ${v.social} text-xl text-gray-400`}></i>
               </div>
             </Link>
           ))}

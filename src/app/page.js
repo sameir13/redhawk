@@ -7,7 +7,6 @@ import Industries from "../components/Industries";
 import About from "../components/About";
 import Logoslider from "../components/Logoslider";
 
-
 const Page = () => {
   return (
     <div>
@@ -18,7 +17,6 @@ const Page = () => {
       <Industries />
       <About />
       <Logoslider />
-      
     </div>
   );
 };

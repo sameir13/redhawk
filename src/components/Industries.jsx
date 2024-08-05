@@ -5,56 +5,59 @@ const Industries = () => {
   const industriesArray = [
     {
       name: " Gas Stations",
-      href: "/",
+      href: "/industries/gas-stations",
     },
     {
       name: "Liquor & Smoke Shops",
-      href: "/",
+      href: "/industries/liquor-smoke-shops",
     },
     {
       name: "Truck Yards",
-      href: "/",
+      href: "/industries/truck-yards",
     },
     {
       name: "Construction Sites",
-      href: "/",
+      href: "/industries/construction-sites",
     },
     {
       name: "Institutional Buildings",
-      href: "/",
+      href: "/industries/institutional-buildings",
     },
     {
       name: "Day Care",
-      href: "/",
+      href: "/industries/day-care",
     },
     {
       name: "Elder Care",
-      href: "/",
+      href: "/industries/elder-care",
     },
     {
       name: "Apartment Complex",
-      href: "/",
+      href: "/industries/apartment-complex",
     },
     {
       name: "Car Dealerships",
-      href: "/",
+      href: "/industries/car-dealerships",
     },
     {
       name: "Warehouse",
-      href: "/",
+      href: "/industries/warehouse",
     },
     {
       name: "Hotels, Motels & Resorts",
-      href: "/",
+      href: "/industries/hotels-motels-resorts",
     },
     {
       name: "Office Buildings",
-      href: "/",
+      href: "/industries/office-buildings",
     },
   ];
 
   return (
-    <section className=" px-5 py-[110px] max-w-[1100px] m-auto ">
+    <section
+      className=" px-5 py-[110px] max-w-[1100px] m-auto "
+      id="industries"
+    >
       <div className=" shadow-2xl bg-[#213B13] px-10 md:px-20 py-20 md:py-32">
         <h2 className="text-4xl text-center font-semibold mb-5 text-white">
           Our Industries

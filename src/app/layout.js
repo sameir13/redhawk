@@ -1,6 +1,6 @@
 import { Poppins } from "next/font/google";
 import "./globals.css";
-import FormatLayout from "@/src/components/FormatLayout"
+import FormatLayout from "@/src/components/FormatLayout";
 
 const poppins = Poppins({
   subsets: ["latin"],
@@ -18,11 +18,9 @@ export default function RootLayout({ children }) {
         href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
         rel="stylesheet"
       />
-        <body className={poppins.className}>
-      <FormatLayout>
-          {children}
-      </FormatLayout>
-          </body>
+      <body className={poppins.className}>
+        <FormatLayout>{children}</FormatLayout>
+      </body>
     </html>
   );
 }

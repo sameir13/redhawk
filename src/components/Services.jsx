@@ -44,7 +44,7 @@ const Services = () => {
   ];
 
   return (
-    <section className=" py-[110px] px-4  bg-[#eeeeee]">
+    <section className=" py-[110px] px-4  bg-[#eeeeee]" id="service">
       <Heading heading={"Our Services"} />
 
       <div className=" relative  m-auto max-w-[1000px] flex flex-col  bg-[#4B4B4B]  ">
