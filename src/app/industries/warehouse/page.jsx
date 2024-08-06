@@ -5,23 +5,23 @@ const Page = () => {
   const kpis = [
     "Theft Reporting",
     "Fencing Perimeter",
+    "Pollution Prevention",
+    "Employee Safety",
+    "Vandalism",
+    "Cargo Theft",
+    "Number of Available Spaces",
+    "Remote Monitoring and Control",
+    "Unauthorised Access",
+    "Loitering Issues",
     "Stay Duration",
     "Equipment Theft",
-    "Pollution Prevention",
     "Employees In/Out Timing",
-    "Employee Safety",
     "Hazardous Material Prevention",
-    "Vandalism",
     "Gate Control",
-    "Cargo theft",
-    "Drugs Or Illegal Activities",
-    "Number of Available Spaces",
+    "Drugs or Illegal Activities",
     "Maintaining Infrastructure",
-    "Remote Monitoring and Control",
     "Waste Management",
-    "Unauthorised Access",
     "Wild Life Security",
-    "Loitering Issues",
   ];
   const mainHeading = "Warehouse";
   return (
@@ -48,15 +48,15 @@ const Page = () => {
             {mainHeading}
           </h3>
           <p className="para text-center text-white">
-            Operational efficiency is significantly enhanced by CCTV systems, as
-            they allow managers to monitor warehouse operations in real-time.
+            Operational efficiency is significantly enhanced by surveillance, as
+            it allows managers to monitor warehouse operations in real-time.
             This oversight ensures that employees adhere to safety protocols and
             operational procedures, reducing the likelihood of accidents and
             improving overall efficiency. Monitoring workflow helps identify
             bottlenecks and areas for improvement, contributing to a more
             streamlined operation. Additionally, these facilities must comply
             with various health and safety regulations, and warehouse video
-            surveillance help monitor compliance, ensuring safety practices are
+            surveillance helps monitor compliance, ensuring safety practices are
             followed and reducing the risk of workplace accidents.
           </p>
         </div>

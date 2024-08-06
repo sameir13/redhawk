@@ -3,25 +3,23 @@ import BreadCrumb from "@/src/components/BreadCrumb";
 
 const Page = () => {
   const kpis = [
-    "Theft Reporting",
-    "Fencing Perimeter",
-    "Stay Duration",
-    "Equipment Theft",
-    "Pollution Prevention",
+    "Thefts Reporting",
+    "Rush Hour Queues",
+    "Returned Customers",
+    "Hot Food Hygiene/Cleanliness",
+    "Door Close in Working Hours",
+    "Free Food by Employee",
     "Employees In/Out Timing",
-    "Employee Safety",
-    "Hazardous Material Prevention",
-    "Vandalism",
+    "Need Cleaning",
+    "Dressing Presentation",
+    "Restocking/Reorganizing",
+    "Phone Use",
+    "Bad Customer Service",
     "Gate Control",
-    "Cargo theft",
-    "Drugs Or Illegal Activities",
-    "Number of Available Spaces",
-    "Maintaining Infrastructure",
-    "Remote Monitoring and Control",
-    "Waste Management",
-    "Unauthorised Access",
-    "Wild Life Security",
-    "Loitering Issues",
+    "Employees Management",
+    "Drugs or Illegal Activities and Emergency Handling",
+    "Regular Maintenance of MPD",
+    "Vandalism",
   ];
   const mainHeading = "Apartment Complex";
   return (
@@ -50,12 +48,12 @@ const Page = () => {
           <p className="para text-center text-white ">
             The presence of visible cameras can discourage potential offenders
             from attempting illegal activities, contributing to a safer living
-            environment. Furthermore, CCTV systems enhance the security of the
-            apartment complex by providing continuous surveillance, which is
-            crucial for the protection of residents and their property. In the
-            event of any incidents, the recorded footage can be invaluable for
-            identifying perpetrators and aiding law enforcement in
-            investigations.
+            environment. Furthermore, Red Hawks monitoring system enhances the
+            security of the apartment complex by providing continuous
+            surveillance, which is crucial for the protection of residents and
+            their property. In the event of any incidents, the recorded footage
+            can be valuable for identifying perpetrators and aiding law
+            enforcement in investigations.
           </p>
         </div>
       </div>

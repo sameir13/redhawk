@@ -5,23 +5,22 @@ const Page = () => {
   const kpis = [
     "Theft Reporting",
     "Fencing Perimeter",
+    "Pollution Prevention",
+    "Employee Safety",
+    "Vandalism",
+    "Cargo Theft",
+    "Number of Available Spaces",
+    "Remote Monitoring and Control",
+    "Unauthorised Access",
+    "Loitering Issues",
     "Stay Duration",
     "Equipment Theft",
-    "Pollution Prevention",
     "Employees In/Out Timing",
-    "Employee Safety",
     "Hazardous Material Prevention",
-    "Vandalism",
     "Gate Control",
-    "Cargo theft",
-    "Drugs Or Illegal Activities",
-    "Number of Available Spaces",
+    "Drugs or Illegal Activities",
     "Maintaining Infrastructure",
-    "Remote Monitoring and Control",
     "Waste Management",
-    "Unauthorised Access",
-    "Wild Life Security",
-    "Loitering Issues",
   ];
   const mainHeading = "Hotels Motels & Resorts";
   return (
@@ -48,14 +47,14 @@ const Page = () => {
             {mainHeading}
           </h3>
           <p className="para text-center text-white">
-            Operational efficiency in hotels is significantly improved with the
-            use of CCTV systems. Managers can monitor the activities of staff to
-            ensure that they adhere to hotel policies and provide high-quality
-            service. This oversight helps in maintaining service standards and
-            identifying areas where operational improvements can be made.
-            Additionally, monitoring guest interactions and service areas can
-            ensure that guests receive the best possible experience, enhancing
-            overall guest satisfaction.
+            Operational efficiency in hotels is significantly improved with Red
+            Hawks Surveillance Services. This will allow owners & managers to
+            keep an eye on every activity that they adhere to hotel policies and
+            provide high-quality service. This oversight helps in maintaining
+            service standards and identifying areas where operational
+            improvements can be made. Additionally, monitoring guest
+            interactions and service areas can ensure that guests receive the
+            best possible experience, enhancing overall guest satisfaction.
           </p>
         </div>
       </div>

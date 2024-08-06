@@ -1,5 +1,4 @@
 import React from "react";
-import Link from "next/link";
 import Heading from "./Heading";
 
 const Brands = () => {
@@ -14,38 +13,43 @@ const Brands = () => {
             providing real time oversight to streamline business operations
           </p>
 
-          <div className=" mb-14 flex flex-col gap-4 ">
+          <div className="  flex flex-col gap-4 ">
             <span className=" flex items-center gap-3  text-md md:text-lg">
               <i class="bx bx-bell text-4xl"></i>
               Instant Mobile Notifications
             </span>
+            <p className="px-1 py-2 w-fit rounded-3xl max-w-full md:max-w-[70%]">
+              Customers receive instant mobile notifications for all activities
+              in their facility
+            </p>
 
-            <span className=" flex items-center gap-3 text-md md:text-lg">
+            <span className=" flex items-center gap-3 text-md md:text-lg  mt-10">
               <i class="bx bx-book-content text-4xl"></i>
               Daily/Weekly/Monthly Reports
             </span>
 
-            <span className=" flex items-center gap-3 text-md md:text-lg">
+            <p className="px-1 py-2 w-fit rounded-3xl max-w-full md:max-w-[70%]">
+              Red Hawk provides comprehensive reports for in-depth facility
+              monitoring & analysis
+            </p>
+
+            <span className=" flex items-center gap-3 text-md md:text-lg mt-10">
               <i class="bx bxs-credit-card text-4xl"></i>
               Reimbursement
             </span>
-          </div>
-
-          <div>
-            <Link
-              className=" w-fit block text-white text-md bg-[#F0483E] px-10 py-3"
-              href={"/"}
-            >
-              Explore More
-            </Link>
+            <p className="px-1 py-2 w-fit rounded-3xl max-w-full md:max-w-[70%]">
+              Red Hawk offers reimbursement for undetected stolen goods under
+              specific conditions
+            </p>
           </div>
         </div>
 
-        <div className=" conditionCLass absolute shadow-2xl right-[-10%]  top-[25%] bg-white  flex-col items-center justify-center py-14 px-10 gap-10">
-          <img src="./images/logo.png" className="w-[300px] mb-5" alt="" />
-          <p className=" text-xl text-center ">
-            Streamline Business <br /> Success with Red Hawk
-          </p>
+        <div className=" conditionCLass absolute shadow-2xl right-[-10%]  top-[25%] bg-white  flex items-center justify-center py-14 px-10 gap-10">
+          <img
+            src="./images/logo.png"
+            className="w-[300px] mb-5 rounded-full p-7 shadow-2xl"
+            alt=""
+          />
         </div>
       </div>
     </section>

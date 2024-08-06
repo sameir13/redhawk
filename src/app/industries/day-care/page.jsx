@@ -3,25 +3,23 @@ import BreadCrumb from "@/src/components/BreadCrumb";
 
 const Page = () => {
   const kpis = [
-    "Theft Reporting",
-    "Fencing Perimeter",
-    "Stay Duration",
-    "Equipment Theft",
-    "Pollution Prevention",
+    "Thefts Reporting",
+    "Rush hour queues",
+    "Returned customers",
+    "Hot food hygiene/cleanliness",
+    "Door close in working hours",
+    "Free food by employee",
     "Employees In/Out Timing",
-    "Employee Safety",
-    "Hazardous Material Prevention",
-    "Vandalism",
+    "Need Cleaning",
+    "Dressing presentation",
+    "Restocking/reorganizing",
+    "Phone use",
+    "Bad customer service",
     "Gate Control",
-    "Cargo theft",
-    "Drugs Or Illegal Activities",
-    "Number of Available Spaces",
-    "Maintaining Infrastructure",
-    "Remote Monitoring and Control",
-    "Waste Management",
-    "Unauthorised Access",
-    "Wild Life Security",
-    "Loitering Issues",
+    "Employees management",
+    "Drugs Or Illegal Activities and Emergency Handling",
+    "Regular Maintenance of MPD",
+    "Vandalism",
   ];
   const mainHeading = "Day Care";
   return (
@@ -48,17 +46,14 @@ const Page = () => {
             {mainHeading}
           </h3>
           <p className="para text-center text-white ">
-            Day care centers face challenges that impact high-quality care,
-            including staffing shortages, high turnover rates, and financial
-            constraints. They must balance operational costs with affordable
-            tuition and handle complex child abuse reporting while ensuring
-            safety and privacy. Continuous staff training and adherence to best
-            practices are crucial for quality assurance. Meeting diverse
-            parental expectations, maintaining effective communication, ensuring
-            equity and inclusion, and advocating for fair compensation for child
-            care professionals are essential. Implementing daycare video
-            monitoring services can help address many of these challenges
-            through enhanced oversight and accountability.
+            Day care centers face challenges like staffing shortages, financial
+            constraints, child abuse reporting, and maintaining quality care.
+            Ensuring safety, privacy, and effective communication while meeting
+            diverse expectations is crucial. Red Hawks Daycare Video Monitoring
+            Services can address these issues by enhancing security, improving
+            operational efficiency, and supporting continuous staff training,
+            ensuring high-quality care and peace of mind for parents and staff
+            alike.
           </p>
         </div>
       </div>

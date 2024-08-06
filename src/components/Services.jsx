@@ -41,6 +41,11 @@ const Services = () => {
       icon: "bx-edit-alt",
       href: "bookkeeping",
     },
+    {
+      name: "Solar IP Cameras",
+      icon: "bx-cctv",
+      href: "solar-ip-cameras",
+    },
   ];
 
   return (
@@ -54,11 +59,11 @@ const Services = () => {
             providing real time oversight to streamline business operations
           </p>
 
-          <div className=" mb-14  grid grid-cols-1 md:grid-cols-2 gap-4 ">
+          <div className=" mb-14  grid grid-cols-1 md:grid-cols-2 gap-10 ">
             {serviceLinks.map((v, i) => (
               <div key={i}>
                 <span
-                  onClick={() => router.push(`/our-services/${v.href}`)}
+                  onClick={() => router.push(`/services/${v.href}`)}
                   className=" flex items-center gap-3 text-md  md:text-lg text-white w-fit cursor-pointer"
                 >
                   <i className={`bx text-4xl ${v.icon}`}></i>
@@ -67,22 +72,14 @@ const Services = () => {
               </div>
             ))}
           </div>
-
-          <div>
-            <Link
-              className=" w-fit block text-white text-md bg-[#F0483E] px-10 py-3"
-              href={"/"}
-            >
-              Explore More
-            </Link>
-          </div>
         </div>
 
-        <div className=" conditionCLass absolute shadow-2xl right-[-12%]  top-[25%] bg-white  flex-col items-center justify-center py-14 px-10 gap-10">
-          <img src="./images/logo.png" className="w-[300px] mb-5" alt="" />
-          <p className=" text-xl text-center ">
-            Streamline Business <br /> Success with Red Hawk
-          </p>
+        <div className=" conditionCLass absolute shadow-2xl right-[-12%]  top-[25%] bg-white  flex items-center justify-center py-14 px-10 gap-10">
+          <img
+            src="./images/logo.png"
+            className="w-[300px] mb-5 rounded-full p-7 shadow-2xl"
+            alt=""
+          />
         </div>
       </div>
     </section>

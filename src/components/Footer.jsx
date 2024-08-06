@@ -40,12 +40,12 @@ const Footer = () => {
   ];
   return (
     <footer className="">
-      <div className=" px-5 flex items-center  gap-4 md:gap-0  bg-indigo-400 py-10 flex-wrap justify-between">
+      <div className=" px-5 flex items-center  gap-4 md:gap-0  bg-[#DDC548] py-10 flex-wrap justify-between">
         {footerData.map((v, i) => {
           return (
             <div key={i} className="flex items-center gap-3 ">
               <i
-                class={`bx ${v.icon} text-2xl border border-white bg-white p-1 rounded-full text-indigo-400`}
+                class={`bx ${v.icon} text-2xl border border-white bg-white p-1 rounded-full text-[#DDC548]`}
               ></i>
               <span className="text-md text-white">{v.label}</span>
             </div>

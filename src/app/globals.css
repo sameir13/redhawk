@@ -10,7 +10,7 @@
 }
 
 .mainBg {
-  background: url("../../public/images/banner.jpg");
+  background: url("../../public/images/banner2.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -18,7 +18,8 @@
 }
 
 .breadCrumbImage {
-  background: url("../../public//images/bread.jpg");
+  /* background: url("../../public//images/bread.jpg"); */
+  background: url("https://img.freepik.com/free-photo/business-deal-top-view_23-2147626517.jpg?t=st=1722964526~exp=1722968126~hmac=2bbcdb2a00f80cd03debd6a3e4394438ed67d32d68c312169267d8e8c5b97ec1&w=900");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -48,5 +49,5 @@
 }
 
 .para {
-  font-size: clamp(1rem, 0.7949rem + 1.0256vw, 1.5rem);
+  font-size: clamp(1rem, 0.9487rem + 0.2564vw, 1.125rem);
 }

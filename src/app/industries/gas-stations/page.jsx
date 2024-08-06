@@ -43,18 +43,18 @@ const Page = () => {
 
       <div className=" px-5 max-w-[1100px] m-auto ">
         <div className=" relative border-2  rounded-b-3xl bg-[#4B4B4B] px-3 py-10  md:px-6 md:py-20">
-
-        <h3 className=" text-white text-2xl md:text-3xl font-medium mb-5 text-center">Gas Stations</h3>
-        <p className="para text-center text-white ">
-          Gas station surveillance is essential for security and efficiency.
-          CCTV cameras deter theft, vandalism, and fuel pilferage, ensuring the
-          safety of employees and customers. They provide evidence for
-          investigations and help resolve disputes. Red Hawks systems enable
-          remote monitoring, improving response times and operational
-          compliance. Additionally, robust security measures can lead to reduced
-          insurance premiums, contributing to a safer and more efficient
-          environment.
-        </p>
+          <h3 className=" text-white text-2xl md:text-3xl font-medium mb-5 text-center">
+            Gas Stations
+          </h3>
+          <p className="para text-center text-white ">
+            Gas station surveillance is crucial for deterring crime, enhancing
+            security, customer satisfaction and ensuring safety. Our exceptional
+            Surveillance will reduce theft and vandalism, improve operational
+            efficiency, and provide critical evidence for investigations. Red
+            Hawks systems support remote monitoring, boost customer safety,
+            manage inventory operations and can even lower insurance premiums by
+            demonstrating strong security measures.
+          </p>
         </div>
       </div>
 

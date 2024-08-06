@@ -3,25 +3,23 @@ import BreadCrumb from "@/src/components/BreadCrumb";
 
 const Page = () => {
   const kpis = [
-    "Theft Reporting",
-    "Fencing Perimeter",
-    "Stay Duration",
-    "Equipment Theft",
-    "Pollution Prevention",
+    "Thefts Reporting",
+    "Rush hour queues",
+    "Returned customers",
+    "Hot food hygiene/cleanliness",
+    "Door close in working hours",
+    "Free food by employee",
     "Employees In/Out Timing",
-    "Employee Safety",
-    "Hazardous Material Prevention",
-    "Vandalism",
+    "Need Cleaning",
+    "Dressing presentation",
+    "Restocking/reorganizing",
+    "Phone use",
+    "Bad customer service",
     "Gate Control",
-    "Cargo theft",
-    "Drugs Or Illegal Activities",
-    "Number of Available Spaces",
-    "Maintaining Infrastructure",
-    "Remote Monitoring and Control",
-    "Waste Management",
-    "Unauthorised Access",
-    "Wild Life Security",
-    "Loitering Issues",
+    "Employees management",
+    "Drugs Or Illegal Activities and Emergency Handling",
+    "Regular Maintenance of MPD",
+    "Vandalism",
   ];
   const mainHeading = "Institutional Buildings";
   return (
@@ -48,17 +46,15 @@ const Page = () => {
             {mainHeading}
           </h3>
           <p className="para text-center text-white ">
-            CCTVs at educational institutions offer a range of benefits that
-            contribute to creating a safe and conducive learning environment.
-            Deterring theft and controlling access, improved safety by
-            monitoring student activities and aiding in emergency responses, and
-            better behavior management by preventing bullying and enforcing
-            policies. Surveillance also enhances operational efficiency, aids in
-            incident investigation and legal protection, and boosts
-            accountability among students and staff. Additionally, CCTV systems
-            reassure parents about their children’s safety, can reduce insurance
-            premiums. Overall, surveillance contribute to a safer, more secure,
-            and well-managed educational environment.
+            CCTVs at educational institutions offer numerous benefits, enhancing
+            safety and creating a conducive learning environment. They deter
+            theft, control access, monitor student activities, aid in emergency
+            responses, and prevent bullying. Red Hawks surveillance systems
+            improve operational efficiency, assist in incident investigations,
+            and boost accountability among students and staff. They reassure
+            parents about their childrens safety and can reduce insurance
+            premiums. Overall, Red Hawks surveillance ensures a safer, more
+            secure, and well-managed educational environment.
           </p>
         </div>
       </div>

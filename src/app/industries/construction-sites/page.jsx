@@ -3,25 +3,23 @@ import BreadCrumb from "@/src/components/BreadCrumb";
 
 const Page = () => {
   const kpis = [
-    "Theft Reporting",
-    "Fencing Perimeter",
-    "Stay Duration",
-    "Equipment Theft",
-    "Pollution Prevention",
+    "Thefts Reporting",
+    "Rush hour queues",
+    "Returned customers",
+    "Hot food hygiene/cleanliness",
+    "Door close in working hours",
+    "Free food by employee",
     "Employees In/Out Timing",
-    "Employee Safety",
-    "Hazardous Material Prevention",
-    "Vandalism",
+    "Need Cleaning",
+    "Dressing presentation",
+    "Restocking/reorganizing",
+    "Phone use",
+    "Bad customer service",
     "Gate Control",
-    "Cargo theft",
-    "Drugs Or Illegal Activities",
-    "Number of Available Spaces",
-    "Maintaining Infrastructure",
-    "Remote Monitoring and Control",
-    "Waste Management",
-    "Unauthorised Access",
-    "Wild Life Security",
-    "Loitering Issues",
+    "Employees management",
+    "Drugs Or Illegal Activities and Emergency Handling",
+    "Regular Maintenance of MPD",
+    "Vandalism",
   ];
   const mainHeading = "Construction Sites";
   return (
@@ -48,15 +46,17 @@ const Page = () => {
             {mainHeading}
           </h3>
           <p className="para text-center text-white ">
-            Implementing construction site video surveillance enhances security,
-            safety, and operational efficiency. Cameras deter theft and
-            vandalism, provide 24/7 monitoring, and control access. They promote
-            worker safety by ensuring adherence to protocols and allow thorough
-            incident investigations. Surveillance supports regulatory
-            compliance, efficient project management, and workflow optimization.
-            It provides evidence for disputes, aids in managing insurance
-            claims, and can reduce premiums. Real-time alerts and remote
-            monitoring enable swift responses to threats and emergencies.
+            Implementing construction site video surveillance offers numerous
+            benefits, including enhanced security, improved safety, and greater
+            operational efficiency. Red Hawks Surveillance deter theft and
+            vandalism, provide 24/7 live human eye monitoring, and control
+            access to authorized personnel. They ensure adherence to safety
+            protocols, aid in incident investigation, and support compliance
+            with regulations. Our service helps optimize workflows, manage
+            projects and resources, resolve disputes, and handle insurance
+            claims. Real-time alerts and remote monitoring enable swift
+            responses to threats and emergencies, potentially reducing insurance
+            premiums.
           </p>
         </div>
       </div>

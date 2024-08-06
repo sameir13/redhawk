@@ -3,25 +3,23 @@ import BreadCrumb from "@/src/components/BreadCrumb";
 
 const Page = () => {
   const kpis = [
-    "Theft Reporting",
-    "Fencing Perimeter",
-    "Stay Duration",
-    "Equipment Theft",
-    "Pollution Prevention",
-    "Employees In/Out Timing",
-    "Employee Safety",
-    "Hazardous Material Prevention",
-    "Vandalism",
-    "Gate Control",
-    "Cargo theft",
-    "Drugs Or Illegal Activities",
-    "Number of Available Spaces",
-    "Maintaining Infrastructure",
-    "Remote Monitoring and Control",
-    "Waste Management",
-    "Unauthorised Access",
-    "Wild Life Security",
-    "Loitering Issues",
+   "Thefts Reporting",
+  "Rush hour queues",
+  "Returned customers",
+  "Hot food hygiene/cleanliness",
+  "Door close in working hours",
+  "Free food by employee",
+  "Employees In/Out Timing",
+  "Need Cleaning",
+  "Dressing presentation",
+  "Restocking/reorganizing",
+  "Phone use",
+  "Bad customer service",
+  "Gate Control",
+  "Employees management",
+  "Drugs Or Illegal Activities and Emergency Handling",
+  "Regular Maintenance of MPD",
+  "Vandalism"
   ];
   const mainHeading = "Liqour & Smoke Shops";
   return (
@@ -48,18 +46,15 @@ const Page = () => {
             {mainHeading}
           </h3>
           <p className="para text-center text-white ">
-            Operating a liquor-selling facility involves managing several
-            challenges to ensure smooth operations, compliance, and safety.
-            Preventing underage drinking requires strict ID verification and
-            electronic ID scanners. Staff must be trained to manage intoxicated
-            customers and refuse service when necessary. To prevent theft and
-            loss, facilities should use CCTV systems, security tags, and conduct
-            regular inventory audits. Security personnel and conflict resolution
-            training help handle aggressive patrons. Efficient inventory
-            management prevents spoilage, aided by systems tracking stock levels
-            and sales patterns. Comprehensive liability insurance and meticulous
-            record-keeping address legal liabilities. Proactively addressing
-            these challenges enhances operations, compliance, and safety.
+            Operating a liquor facility involves managing challenges such as
+            preventing underage drinking with ID checks, handling intoxicated
+            customers with staff training, preventing theft through CCTV and
+            regular audits. Addressing aggressive behavior requires security
+            personnel and conflict resolution training. Efficient inventory
+            management and comprehensive liability insurance are also essential
+            for compliance and safety. Proactively addressing these issues
+            ensures smooth operations and enhances safety for both customers and
+            employees.
           </p>
         </div>
       </div>

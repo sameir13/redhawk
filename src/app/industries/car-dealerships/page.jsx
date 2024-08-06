@@ -5,23 +5,23 @@ const Page = () => {
   const kpis = [
     "Theft Reporting",
     "Fencing Perimeter",
+    "Pollution Prevention",
+    "Employee Safety",
+    "Vandalism",
+    "Cargo Theft",
+    "Number of Available Spaces",
+    "Remote Monitoring and Control",
+    "Unauthorised Access",
+    "Loitering Issues",
     "Stay Duration",
     "Equipment Theft",
-    "Pollution Prevention",
     "Employees In/Out Timing",
-    "Employee Safety",
     "Hazardous Material Prevention",
-    "Vandalism",
     "Gate Control",
-    "Cargo theft",
-    "Drugs Or Illegal Activities",
-    "Number of Available Spaces",
+    "Drugs or Illegal Activities",
     "Maintaining Infrastructure",
-    "Remote Monitoring and Control",
     "Waste Management",
-    "Unauthorised Access",
-    "Wild Life Security",
-    "Loitering Issues",
+    "Test Drive Frauds",
   ];
   const mainHeading = "Car Dealerships";
   return (
@@ -51,13 +51,13 @@ const Page = () => {
             Car dealership video monitoring has numerous benefits that
             significantly enhance security, operational efficiency, and customer
             experience. One of the primary advantages is the deterrence of
-            criminal activities such as theft, vandalism, and unauthorized
-            access. Car dealerships, with their high-value inventory, are
-            attractive targets for criminals. Visible CCTV cameras can
-            discourage potential offenders, thereby reducing the risk of these
-            incidents. Additionally, overall security of the dealership by
-            monitoring all areas, including showrooms, service bays, parking
-            lots, and administrative offices is convenient.
+            criminal activities such as theft, vandalism, test drive frauds and
+            unauthorized access. Car dealerships, with their high-value
+            inventory, are attractive targets for criminals. Visible CCTV
+            cameras can discourage potential offenders, thereby reducing the
+            risk of these incidents. Additionally, overall security of the
+            dealership by monitoring all areas, including showrooms, service
+            bays, parking lots, and administrative offices is convenient.
           </p>
         </div>
       </div>

@@ -3,25 +3,23 @@ import BreadCrumb from "@/src/components/BreadCrumb";
 
 const Page = () => {
   const kpis = [
-    "Theft Reporting",
-    "Fencing Perimeter",
-    "Stay Duration",
-    "Equipment Theft",
-    "Pollution Prevention",
-    "Employees In/Out Timing",
-    "Employee Safety",
-    "Hazardous Material Prevention",
-    "Vandalism",
-    "Gate Control",
-    "Cargo theft",
-    "Drugs Or Illegal Activities",
-    "Number of Available Spaces",
-    "Maintaining Infrastructure",
-    "Remote Monitoring and Control",
-    "Waste Management",
-    "Unauthorised Access",
-    "Wild Life Security",
-    "Loitering Issues",
+    "Thefts Reporting",
+  "Rush hour queues",
+  "Returned customers",
+  "Hot food hygiene/cleanliness",
+  "Door close in working hours",
+  "Free food by employee",
+  "Employees In/Out Timing",
+  "Need Cleaning",
+  "Dressing presentation",
+  "Restocking/reorganizing",
+  "Phone use",
+  "Bad customer service",
+  "Gate Control",
+  "Employees management",
+  "Drugs Or Illegal Activities and Emergency Handling",
+  "Regular Maintenance of MPD",
+  "Vandalism"
   ];
   const mainHeading = "Truck Yards";
 
@@ -49,16 +47,16 @@ const Page = () => {
             {mainHeading}
           </h3>
           <p className="para text-center text-white ">
-            Truck yard owners can enhance security and efficiency with
-            comprehensive services. Our real-time monitoring provides 24/7
-            surveillance, while video analytics optimize traffic flow and
-            predict security breaches. Perimeter security is strengthened with
-            fencing, alarms, and lighting. In case of incidents, we coordinate
-            with local law enforcement for a quick response. Red Hawk manages
-            secure data storage, ensuring surveillance footage is easily
-            retrievable for investigations. These services ensure the safety of
-            vehicles, cargo, and personnel while streamlining operations for
-            increased productivity.
+            Truck yard owners can greatly improve security and efficiency with
+            our services. We offer 24/7 real-time human eye surveillance and use
+            video analytics to optimize traffic flow and detect potential
+            security issues. Our robust perimeter security includes fencing,
+            alarms, and lighting systems. In case of an incident, we coordinate
+            with local law enforcement for a swift response. Red Hawk also
+            manages secure data storage, ensuring surveillance footage is
+            protected and accessible for investigations. With our comprehensive
+            surveillance solutions, truck yard owners can safeguard their site
+            and maximize their operational productivity.
           </p>
         </div>
       </div>

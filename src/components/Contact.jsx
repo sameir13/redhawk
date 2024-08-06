@@ -8,7 +8,7 @@ const Contact = () => {
   return (
     <div className=" absolute top-9  left-5  md:left-9 ">
       <div
-        onClick={() => router.push("/")}
+        onClick={() => router.push("/contact-us")}
         className=" group flex items-center cursor-pointer bg-[#FFDD2B] sliderShadow justify-center relative  w-10 h-10 md:w-14  md:h-14 rounded-full "
       >
         <i class="bx bxs-paper-plane  text-xl md:text-3xl "></i>

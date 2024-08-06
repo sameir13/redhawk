@@ -7,8 +7,8 @@ import { Autoplay } from "swiper/modules";
 
 const Logoslider = () => {
   return (
-    <div className=" py-[70px] px-5 bg-[#F9F8F8]  md:relative  md:border-t-2 border-indigo-400">
-      <span className=" hidden md:block absolute -top-5 bg-indigo-400 text-white  py-2 text-lg px-5 rounded-3xl left-[43%] ">
+    <div className=" py-[70px] px-5 bg-[#F9F8F8]  md:relative  md:border-t-2 border-[#DDC548]">
+      <span className=" hidden md:block absolute -top-5 bg-[#DDC548] text-white  py-2 text-lg px-5 rounded-3xl left-[43%] ">
         Our Companies
       </span>
 

@@ -1,35 +1,66 @@
+"use client";
 import React from "react";
-import Link from "next/link";
+import { motion } from "framer-motion";
+import { useInView } from "react-intersection-observer";
 
 const About = () => {
+  const pointer = [
+    "Business Management",
+    "Human Eye Surveillance",
+    "Instant Updates",
+    "Reasonable pricing",
+  ];
+
+  const { ref, inView } = useInView({
+    triggerOnce: true, // Animation triggers only once
+    threshold: 0.1, // Trigger when 10% of the section is visible
+  });
+
+  const bounceTransition = {
+    type: "spring",
+    stiffness: 100,
+    damping: 10,
+  };
+
   return (
     <section
       id="about"
-      className=" pt-[110px] px-5 max-w-[1100px] m-auto flex flex-col items-center justify-center gap-8"
+      className="overflow-x-hidden  py-[110px] px-5 max-w-[1100px] m-auto grid grid-cols-1 md:grid-cols-2 gap-8"
+      ref={ref}
     >
-      <div>
-        <h2 className="text-3xl md:text-4xl font-semibold mb-6 text-center">
-          About Us
-        </h2>
-        <p className=" mb-5 para text-center ">
+      <motion.div
+        initial={{ x: "-200%" }} // Start completely off screen to the left
+        animate={inView ? { x: 0 } : {}} // Animate to original position when in view
+        transition={bounceTransition}
+      >
+        <span className="text-gray-600 text-sm block mb-2 font-medium">
+          ABOUT RED HAWK
+        </span>
+        <h2 className="text-3xl md:text-4xl font-semibold mb-6">About Us</h2>
+        <p className="mb-9 para">
           At Red Hawk, Inc., we deliver customized management services for
-          diverse industries. Our commitment to excellence and innovation
-          ensures secure, efficient, and optimized operations, positioning us as
-          a leader in the field.
+          diverse industries. As a market-leading company from Silicon Valley,
+          our commitment to excellence and innovation ensures secure, efficient,
+          and optimized operations, positioning us as a leader in the field.
         </p>
-      </div>
-      <div className=" flex items-center justify-center mb-20">
-        <Link
-          className="  w-full text-center   md:w-fit block text-white text-md bg-[#F0483E] px-10 py-3"
-          href={"/about-us"}
-        >
-          Read More
-        </Link>
-      </div>
 
-      <div className=" mb-10">
-        <img src="./images/report.png" className="w-full" alt="" />
-      </div>
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-7">
+          {pointer.map((v, i) => (
+            <div key={i} className="flex items-center md:text-md gap-2">
+              <i className="bx bxs-chevron-right-circle text-lg md:text-xl text-[#DDC548]"></i>
+              {v}
+            </div>
+          ))}
+        </div>
+      </motion.div>
+
+      <motion.div
+        initial={{ x: "200%" }} // Start completely off screen to the right
+        animate={inView ? { x: 0 } : {}} // Animate to original position when in view
+        transition={bounceTransition}
+      >
+        <img src="./images/report.png" className="w-full" alt="Report" />
+      </motion.div>
     </section>
   );
 };

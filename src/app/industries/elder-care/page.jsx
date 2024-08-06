@@ -3,25 +3,17 @@ import BreadCrumb from "@/src/components/BreadCrumb";
 
 const Page = () => {
   const kpis = [
-    "Theft Reporting",
-    "Fencing Perimeter",
-    "Stay Duration",
-    "Equipment Theft",
-    "Pollution Prevention",
-    "Employees In/Out Timing",
-    "Employee Safety",
-    "Hazardous Material Prevention",
+    "Resident / Emp Safety",
+    "Theft / Break In",
+    "Suspicious Activity",
+    "Fire Hazard",
+    "Routine and Policy Compliance",
+    "Cleanliness Condition",
     "Vandalism",
-    "Gate Control",
-    "Cargo theft",
-    "Drugs Or Illegal Activities",
-    "Number of Available Spaces",
-    "Maintaining Infrastructure",
-    "Remote Monitoring and Control",
-    "Waste Management",
-    "Unauthorised Access",
-    "Wild Life Security",
-    "Loitering Issues",
+    "Unauthorized Access",
+    "Suspicious Person",
+    "Infrastructure Maintenance",
+    "Employees Shifts / Breaks",
   ];
   const mainHeading = "Elder Care";
   return (
@@ -48,17 +40,14 @@ const Page = () => {
             {mainHeading}
           </h3>
           <p className="para text-center text-white ">
-            Elder care centers face numerous challenges, including staffing
-            issues like shortages and high turnover, financial constraints, and
-            complex regulatory compliance. Health and safety concerns, such as
-            infection control and managing chronic conditions, are significant,
-            alongside the need to provide personalized care and address mental
-            health needs. Meeting high expectations from residents and families,
-            integrating new technologies, and dealing with the emotional and
-            physical demands on staff also pose difficulties. Additionally,
-            ensuring cultural sensitivity, overcoming language barriers, and
-            maintaining facility infrastructure add to the operational
-            complexities.
+            Elder care centers face many challenges, including staffing
+            shortages, high turnover, and financial constraints. They must also
+            manage health and safety concerns, provide personalized care, and
+            meet regulatory compliance. Red Hawk addresses these issues by
+            integrating new technologies, enhancing infection control, and
+            supporting staff with efficient systems. We help ensure cultural
+            sensitivity, overcome language barriers, and maintain facility
+            infrastructure, making operations smoother and safer.
           </p>
         </div>
       </div>
