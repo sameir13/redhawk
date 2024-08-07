@@ -48,10 +48,6 @@ const BrandsTwo = () => {
               Drugs or Illegal Activities
             </span>
           </div>
-
-
-
-
         </div>
       </div>
     </section>
