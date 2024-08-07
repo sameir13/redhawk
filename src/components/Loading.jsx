@@ -4,25 +4,13 @@ import React, { useEffect, useState } from "react";
 const Loading = () => {
   const [isLoading, setIsLoading] = useState(true);
 
-
-  console.log
-
   useEffect(() => {
-
-    window.document.body.style.overflow = "hidden";
-
-   
     const timeoutId = setTimeout(() => {
       setIsLoading(false);
-    
-      window.document.body.style.overflow = "visible";
     }, 3000); 
-    return () => {
-      clearTimeout(timeoutId);
-    
-      window.document.body.style.overflow = "visible";
-    };
-  }, [])
+
+    return () => clearTimeout(timeoutId);
+  }, []);
 
   return (
     <div>

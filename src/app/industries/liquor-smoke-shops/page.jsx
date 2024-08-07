@@ -3,23 +3,23 @@ import BreadCrumb from "@/src/components/BreadCrumb";
 
 const Page = () => {
   const kpis = [
-   "Thefts Reporting",
-  "Rush hour queues",
-  "Returned customers",
-  "Hot food hygiene/cleanliness",
-  "Door close in working hours",
-  "Free food by employee",
-  "Employees In/Out Timing",
-  "Need Cleaning",
-  "Dressing presentation",
-  "Restocking/reorganizing",
-  "Phone use",
-  "Bad customer service",
-  "Gate Control",
-  "Employees management",
-  "Drugs Or Illegal Activities and Emergency Handling",
-  "Regular Maintenance of MPD",
-  "Vandalism"
+    "Thefts Reporting",
+    "Rush hour queues",
+    "Returned customers",
+    "Hot food hygiene/cleanliness",
+    "Door close in working hours",
+    "Free food by employee",
+    "Employees In/Out Timing",
+    "Need Cleaning",
+    "Dressing presentation",
+    "Restocking/reorganizing",
+    "Phone use",
+    "Bad customer service",
+    "Gate Control",
+    "Employees management",
+    "Drugs Or Illegal Activities and Emergency Handling",
+    "Regular Maintenance of MPD",
+    "Vandalism",
   ];
   const mainHeading = "Liqour & Smoke Shops";
   return (
@@ -48,13 +48,13 @@ const Page = () => {
           <p className="para text-center text-white ">
             Operating a liquor facility involves managing challenges such as
             preventing underage drinking with ID checks, handling intoxicated
-            customers with staff training, preventing theft through CCTV and
-            regular audits. Addressing aggressive behavior requires security
-            personnel and conflict resolution training. Efficient inventory
-            management and comprehensive liability insurance are also essential
-            for compliance and safety. Proactively addressing these issues
-            ensures smooth operations and enhances safety for both customers and
-            employees.
+            customers with staff training, and preventing theft through
+            surveillance and regular audits. Red Hawk addresses aggressive
+            behavior with security personnel and conflict resolution training.
+            Our solutions also include efficient inventory management and
+            support for comprehensive liability insurance, ensuring compliance
+            and safety. Proactively addressing these issues enhances smooth
+            operations and safety for both customers and employees
           </p>
         </div>
       </div>
