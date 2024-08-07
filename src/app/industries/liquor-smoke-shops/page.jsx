@@ -50,11 +50,11 @@ const Page = () => {
             preventing underage drinking with ID checks, handling intoxicated
             customers with staff training, and preventing theft through
             surveillance and regular audits. Red Hawk addresses aggressive
-            behavior with security personnel and conflict resolution training.
-            Our solutions also include efficient inventory management and
-            support for comprehensive liability insurance, ensuring compliance
-            and safety. Proactively addressing these issues enhances smooth
-            operations and safety for both customers and employees
+            behavior and conflict resolution. Our solutions also
+            include efficient inventory management and support for comprehensive
+            liability insurance, ensuring compliance and safety. Proactively
+            addressing these issues enhances smooth operations and safety for
+            both customers and employees
           </p>
         </div>
       </div>
