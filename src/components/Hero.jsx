@@ -24,7 +24,7 @@ const Hero = () => {
   ];
 
   return (
-    <section className="mainBg relative flex">
+    <section className="mainBg relative">
       <Contact />
       <div className="flex flex-col items-center justify-center max-w-2xl m-auto py-[80px] px-5">
         <div className="mb-8">
