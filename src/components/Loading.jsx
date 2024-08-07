@@ -10,7 +10,7 @@ const Loading = () => {
     }, 3000); 
 
     return () => clearTimeout(timeoutId);
-  }, []);
+  }, [isLoading])
 
   return (
     <div>
